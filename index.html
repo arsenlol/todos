@@ -9,8 +9,7 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script src="js/vendor/bootstrap.js"></script>
+        
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,7 +19,36 @@
         <!-- Add your site or application content here -->
         
         
-        <p class='col-md-offset-5 col-md-7'>Hello world! This is HTML5 Boilerplate.</p>
+        <header class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Comments</h1>
+                </div>
+                <div class="col-md-8">
+                    <p><i>Simple app allows you to write comments</i></p>
+                </div>
+                <hr>
+            </div>
+        </header>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-4 comment-input">
+                    <p for="">Add your comment</p>
+                    <input type="text" required>
+                    <button>+</button>
+                </div>
+                <div class="col-md-8 comments">
+                     <p>Это первый комментарий!</p>
+                     <p>Это второй!</p>
+                     <p>Это следующий.</p>
+                     <p>А это еще один!</p>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <footer>
+            <p>This is a public domain arsenlol.github.io/todos</p>
+        </footer>
 
         
         
@@ -41,8 +69,8 @@
         
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/bootstrap.js"></script>   <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
